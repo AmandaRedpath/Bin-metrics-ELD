@@ -1,0 +1,132 @@
+/* The Main CSS file */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+h1 {
+  font-size: 60px;
+}
+
+body {
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+}
+p {
+  font-size:22px;
+  color: black;
+}
+img {
+   margin: 40px 0px 0px 0px;
+   border: 7px solid white;
+   border-radius: 20px;
+ }
+ h3, h2 {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+ }
+ footer {
+   color: black;
+   font-family: 'Roboto', sans-serif;
+   width="100%";
+ }
+ h2 #Signup {
+
+ }
+ button #SignupButton{
+   color: blue;
+ }
+.module {
+  height: 100%;
+  background: url("../img/background.jpg");
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.module h1 {
+  padding-top: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+.darken {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../img/background.jpg");
+    height: 100%;
+}
+
+.stranded {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../img/stranded.jpg");
+    height: 100%;
+}
+.stranded h1 {
+  padding-top: 2%;
+}
+.image123 h2 {
+  text-align: center;
+}
+.imgContainer {
+  border-radius: 50%;
+  display: inline-block;
+  margin:0 15px;
+}
+.imgContainer img {
+  width: 100%;
+}
+hr .black-line {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.blue-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 40%;
+  height: 2em;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #3498db;
+  border: 0;
+  border-bottom: 2px solid #2a8bcc;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2a8bcc;
+  box-shadow: inset 0 -2px #2a8bcc;
+}
+.blue-flat-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.Signup {
+
+}
+
+input {
+	size:23;
+	width:300;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+}
+
+.forms{
+		width:225px;
+        float:center;
+        padding:5px; 
+}
+
+.labels{
+        width:225px;
+        padding:10px;
+}
